@@ -1,0 +1,29 @@
+#btn{
+    box-shadow: none;
+    padding: 16px 32px;
+    border-radius: 10000000px;
+    border: none;
+    color: green;
+    background-color: yellowgreen;
+}
+
+#btn:hover{
+    background-color: rgb(120, 159, 43);
+}
+
+input{
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 32px;
+    border-radius: 10000000px;
+    /* 약간 동글동글하게 만들기 */
+    border: 1px solid black;
+    /* 너비, 선모양(솔리드) 색 */
+}
+
+#id, 
+#password,
+#btn{
+   display: block;
+   font-size: 16px;
+}
