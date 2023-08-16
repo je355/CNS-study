@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js">
+</head>
+<body>
+    <header>
+        
+        <div class="iconWrapper">
+            <img src="./assets/dots-menu.png" alt="icon" id="icon">
+        </div>
+        <h3 id="title">To DO</h3>
+        </div>
+    
+        <!-- ./ 현재 자신의 폴더
+        ../ 자신의 상위 폴더 
+        / 안에 -->
+    
+        <div class="searchBox">
+            <img src="./assets/search.png" alt="검색" id="searchIcon">
+            <input type="text" id="search" placeholder="검색">
+            <button id="cancel"> X </button>
+        </div>
+    
+    
+        <div class="iconWrapper">
+            <img src="./assets/settings.png" alt="icon" id="icon">
+        </div>
+    
+        <div class="iconWrapper">
+            <div id="idIcon">?</div>
+        </div>
+    
+        <div class="iconWrapper">
+            <img src="./assets/loudSpeaker.png" alt="icon" id="icon">
+        </div>
+    
+        <div class="iconWrapper">
+            <img src="./assets/user.png" alt="icon" id="icon">
+        </div>
+    </header>
+    
+    <div class="position">
+
+
+        <div class="sideBar">
+            <img src="./assets/Group 10.svg" alt="icon" id="icon">
+            <div id="navItem">
+                <img src="./assets/home.svg" alt="">
+                작업
+            </div>
+    
+            <div id="navItem">
+                <img src="./assets/sun.svg" alt="">
+                오늘 할 일
+            </div>
+    
+            <div id="navItem">
+                <img src="./assets/star.svg" alt="">
+                중요
+            </div>
+    
+            <div id="navItem">
+                <img src="./assets/cal.svg" alt="">
+                캘린더
+            </div>
+    
+            <hr>
+            <p>+ 새 목록</p>
+    
+        </div>
+
+        <div class="content">
+            <img src="./assets/bluehouse.svg" alt="homeBlue">
+        </div>
+        <p id="house"> 작업 </p>
+        <img src="./assets/threedots.png" alt="threeDots" id="tDots">
+
+        <div class="setting">
+            <div id="sort">
+                <img src="./assets/twoarrow.svg" alt="twoArrow">
+                <span class="setText"> 정렬 </span>
+            </div>
+            <div id="Group">
+                <img src="./assets/textgroup.svg" alt="textGroup">
+                <span class="setText"> 그룹 </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="TodoBox">
+        <div id="TodoDiv">
+            <br>
+            <input type="radio" id="TodoRd" name="add">
+            <label class="clsAdd" for="TodoRd"> 작업추가 </label>
+        </div>
+        <hr>
+        <div> 
+            <img src="./assets/dotcal.png" alt="" id="DotCal">
+            <img src="./assets/bell.png" alt="" id="Bell">
+            <img src="./assets/change.png" alt="" id="Change">
+            <button id="valueAdd">추가</button>
+        </div>
+    </div>
+
+    
+
+
+
+</body>
+</html>
