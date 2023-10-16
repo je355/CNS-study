@@ -12,7 +12,8 @@ const Header = () => {
             <div className='Container Context'>
                 <p onClick={()=>{Navigate("/");
           }}>홈</p>
-          <p>디테일</p>
+          <p onClick={()=>{Navigate("/detail");
+          }}>디테일</p>
                 {/* <p>원서접수</p>
                 <p>공지사항</p> */}
             </div>

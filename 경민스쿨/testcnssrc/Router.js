@@ -4,6 +4,7 @@ import App from './App'
 import Login from './Login'
 import Myinfo from './Myinfo'
 import Header from './Header'
+import Detail from './Detail'
 
 const router = () => {
   return (
@@ -14,6 +15,7 @@ const router = () => {
             <Route path="/login" element={<Login />}/>
             {/* 소문자로 login 적으면 태그로 인식해서, 컴퍼넌트로 만들기 위해 대문자 */}
             <Route path="/myinfo" element={<Myinfo />}/>
+            <Route path="/detail" element={<Detail />}/>
         </Routes>
     </BrowserRouter>
   )
