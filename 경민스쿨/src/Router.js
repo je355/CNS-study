@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from './App'
-import Login from './Login'
-import Myinfo from './Myinfo'
-import Header from './Header'
-import Detail from './Detail'
+import App from './page/App'
+import Login from './page/Login'
+import Myinfo from './page/Myinfo'
+import Header from './components/header/Header'
+import Detail from './page/Detail'
 
 const router = () => {
   return (
@@ -15,7 +15,7 @@ const router = () => {
             <Route path="/login" element={<Login />}/>
             {/* 소문자로 login 적으면 태그로 인식해서, 컴퍼넌트로 만들기 위해 대문자 */}
             <Route path="/myinfo" element={<Myinfo />}/>
-            <Route path="/detail" element={<Detail />}/>
+            <Route path="/detail/:id" element={<Detail />}/>
         </Routes>
     </BrowserRouter>
   )
