@@ -15,10 +15,6 @@ export const ErrorText = styled.div`
     margin-top : 15rem;
 `;
 
-export const Error404 = styled.div`
-    color: #1556f7;
-`;
-
 export const NotFoundText = styled.div`
     color: #000;
 
@@ -55,16 +51,6 @@ export const BackButton = styled.button`
 `;
 
 export const BackButton1 = styled.div`
-    display: flex;
-    justify-content: center;
-`;
-
-export const SadImage = styled.img`
-    width: 120px;
-    height: 120px
-`;
-
-export const SadImage1 = styled.div`
     display: flex;
     justify-content: center;
 `;

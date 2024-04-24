@@ -15,21 +15,9 @@ import Box from "../components/common/Box"
 
 // export default App;
 
-import React, { useEffect, useState } from 'react'
-import ServerUrl from "../config/config.json"
-import axios from "axios"
+import React from 'react'
 
 const App = () => {
-  const [data, setData] = useState([]);
-  //배열 [ ] 이 잇으면 웹이 실행되고 실행, 배열이 없으면 계속 실행
-  //왜냐하면 배열에는 변수가 들어가는디 
-  //배열이 없으면 바뀔 애가 없어서 계속 사용됨
-  useEffect(()=>{
-    axios.get(`${ServerUrl.ServerUrl}/post/view`)
-    .then((e)=> console.log(e))
-    .catch((e)=> console.log(e))
-  }, []);
-
   return (
     <>
       <div className="Box"></div>

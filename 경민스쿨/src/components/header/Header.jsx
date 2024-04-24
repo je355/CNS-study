@@ -17,13 +17,6 @@ const Header = () => {
             >
               홈
             </p>
-            <p
-              onClick={()=>{
-                Navigate("/create");
-              }}
-            >
-              만들기
-            </p>
                 {/* <p>원서접수</p>
                 <p>공지사항</p> */}
             </div>
